@@ -1,0 +1,58 @@
+/* Basic page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #db4c4c;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header + nav bar */
+header {
+    background-color: #006a4e; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #006a4e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Form inputs */
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    width: 250px;
+}
+
+/* Buttons in activity page */
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Make site mobile friendly */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
